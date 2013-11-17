@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aokp="http://schemas.android.com/apk/res/com.aokp.romcontrol">
+
+    <PreferenceCategory
+        android:key="aokp"
+        android:title="@string/iokp">
+
+        <Preference
+            android:key="iokp_website"
+            android:title="@string/iokp_website_title"
+            android:summary="@string/iokp_website_summary" />
+ 
+        <Preference
+            android:key="iokp_download"
+            android:title="@string/iokp_download_title"
+            android:summary="@string/iokp_download_summary" />
+ 
+        <Preference
+            android:key="iokp_changelog"
+            android:title="@string/iokp_changelog_title"
+            android:summary="@string/iokp_changelog_summary" />
+
+        <com.aokp.romcontrol.widgets.DeveloperPreference
+            android:title="IOKP"
+            aokp:nameDev="IOKP"
+            aokp:twitterHandle="IOKP_ROM"
+            aokp:githubLink="@string/github_iokp"
+            aokp:donateLink="@string/donate_iokp"
+            aokp:emailDev="infamousrom@gmail.com"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="devs"
+        android:title="@string/devs">
+        <com.aokp.romcontrol.widgets.DeveloperPreference
+            android:title="Jamison904"
+            aokp:nameDev="jamison904"
+            aokp:twitterHandle="Jamison904"
+            aokp:githubLink="@string/github_jamison904"
+            aokp:emailDev="james.jamison85@gmail.com"/>
+
+        <com.aokp.romcontrol.widgets.DeveloperPreference
+            android:title="mrimp"
+            aokp:nameDev="mrimp"
+            aokp:twitterHandle="mrimp"
+            aokp:githubLink="@string/github_mrimp"
+            aokp:emailDev="mrimp@day-off.net"/>
+
+        <com.aokp.romcontrol.widgets.DeveloperPreference
+            android:title="mgbotoe"
+            aokp:nameDev="mgbotoe"
+            aokp:twitterHandle="mgbotoe"
+            aokp:githubLink="@string/github_mgbotoe"
+            aokp:emailDev="mgbotoe@gmail.com"/>
+
+        <com.aokp.romcontrol.widgets.DeveloperPreference
+            android:title="Octane70"
+            aokp:nameDev="Octane70"
+            aokp:twitterHandle="IOKP_ROM"
+            aokp:githubLink="@string/github_octane70"
+            aokp:emailDev="robczepil@gmail.com"/>
+
+        <com.aokp.romcontrol.widgets.DeveloperPreference
+            android:title="Mdjmatt604"
+            aokp:nameDev="djmatt604"
+            aokp:twitterHandle="MattBylander"
+            aokp:githubLink="@string/github_djmatt604"
+            aokp:emailDev="djmatt604@gmail.com"/>
+
+        <com.aokp.romcontrol.widgets.DeveloperPreference
+            android:title="MidnightRider67"
+            aokp:nameDev="MidnightRider67"
+            aokp:twitterHandle="jerrymarshall67"
+            aokp:githubLink="@string/github_midnightRider67"
+            aokp:emailDev="jerrymarshall67@gmail.com"/>
+    </PreferenceCategory>
+</PreferenceScreen>
