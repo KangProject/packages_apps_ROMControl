@@ -28,6 +28,7 @@
     <string name="weather">Weather</string>
     <string name="tools">Tools</string>
     <string name="installer">Installer</string>
+    <string name="active_display">Active Display</string>
 
     <!-- Activity titles defined in AndroidManifest.xml -->
     <string name="title_about">About IOKP</string>
@@ -72,6 +73,7 @@
     <string name="ribbon_settings_summary">@null</string>
     <string name="header_summary_installer">@null</string>
     <string name="header_summary_hardware_keys">@null</string>
+    <string name="header_summary_activedisplay">@null</string>
 
     <!-- Menu Strings -->
     <string name="menu_nav_bar_reset">Reset nav bar</string>
@@ -310,7 +312,7 @@
     <string name="clear_market_data_title">3. Clear market data</string>
     <string name="clear_market_data_cleared">Market data cleared</string>
     <string name="clear_market_data_donot_cleared">"Market data couldn't be cleared, please clear it yourself!"</string>
-
+    <string name="dpi">DPI</string>
     <string name="open_market_title">4. Open Market and hit accept</string>
     <string name="open_market_summary">Press back when done to return here.</string>
     <string name="open_market_summary_could_not_open">"Couldn't open the market! If you're sure it's installed, open it
@@ -905,8 +907,8 @@
         Fahrenheit and windspeed in km/h rather than mph.
     </string>
     <string name="weather_statusbar_style">Statusbar weather style</string>
-    <string name="title_weather_longclick">Weather panel long click action</string>
-    <string name="title_weather_shortclick">Weather panel short click action</string>
+    <string name="title_weather_longclick">Weather panel long click actions</string>
+    <string name="title_weather_shortclick">Weather panel short click actions</string>
     <string name="update">Update weather panel</string>
     <string name="weather_refreshing">Requesting weather update!</string>
     <string name="weather_loc_warning_title">Cannot retrieve location!</string>
@@ -1055,6 +1057,7 @@
 
     <!-- Battery styles -->
     <string name="icon_with_text">Icon with text</string>
+    <string name="icon_with_big_text">Icon with big text</string>
     <string name="icon_with_centered_text">Icon with centered text</string>
     <string name="circlemod">CircleMOD</string>
     <string name="rb_battery4">Racing</string>
@@ -1101,7 +1104,7 @@
     <string name="recents_gb">Recents (GB style)</string>
     <string name="custom_app">Custom app</string>
     <string name="menu_power">Power menu</string>
-    <string name="aokp_ribbon">AOKP ribbon</string>
+    <string name="aokp_ribbon">IOKP ribbon</string>
     <string name="nav_widgets">NavBar widgets</string>
     <string name="blank">Blank</string>
     <string name="none">None</string>
@@ -1405,5 +1408,29 @@ y will play/pause current music track</string>
     <!-- Fast Charge -->
     <string name="fast_charge_not_supported_title">Fast Charge not supported</string>
     <string name="fast_charge_not_supported">Fast Charge is not supported by the current kernel.</string>
+
+    <!-- Tile background style and text color -->
+    <string name="tile_background_style_title">Tile background style</string>
+    <string name="tile_background_style_summary">Lets you choose from random, color fill or default background for tiles</string>
+    <string name="tile_background_color_title">Set tile background color</string>
+    <string name="tile_background_pressed_color_title">Set tile pressed background color</string>
+    <string name="tile_background_random">Random colors</string>
+    <string name="tile_background_color_fill">Color fill</string>
+    <string name="tile_background_default">Default background</string>
+    <string name="tile_custom_background_dialog_title">Tile background style</string>
+    <string name="tile_text_color_title">Set tile text color</string>
+
+    <!-- Random colors -->
+    <string name="custom_toggle_colors">Custom colors</string>
+    <string name="random_colors">Random colors</string>
+    <string name="random_colors_title">Set random colors</string>
+    <string name="random_colors_summary">Allows you to select your own random colors</string>
+    <string name="random_colors_reset_title">Reset random colors</string>
+    <string name="color_one">Color one</string>
+    <string name="color_two">Color two</string>
+    <string name="color_three">Color three</string>
+    <string name="color_four">Color four</string>
+    <string name="color_five">Color five</string>
+    <string name="color_six">Color six</string>
 
 </resources>
