@@ -1,7 +1,5 @@
 package com.aokp.romcontrol.fragments;
 
-import android.content.ActivityNotFoundException;
-import android.content.ComponentName;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -15,6 +13,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class About extends AOKPPreferenceFragment {
+
     public static final String TAG = "About";
 
     Preference mSiteUrl;
@@ -27,9 +26,9 @@ public class About extends AOKPPreferenceFragment {
         super.onCreate(savedInstanceState);
         setTitle(R.string.title_about);
         addPreferencesFromResource(R.xml.prefs_about);
-        mSiteUrl = findPreference("iokp_website");
-        mReviewUrl = findPreference("iokp_download");
-        mIrcUrl = findPreference("iokp_changelog");
+        mSiteUrl = findPreference("aicp_website");
+        mReviewUrl = findPreference("aicp_review");
+        mIrcUrl = findPreference("aokp_irc");
         mDynamicChangelog = findPreference("aokp_dynamic_changelog");
 
         PreferenceGroup devsGroup = (PreferenceGroup) findPreference("devs");
@@ -51,22 +50,29 @@ public class About extends AOKPPreferenceFragment {
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen,
                                          Preference preference) {
         if (preference == mSiteUrl) {
-            launchUrl("http://www.infamousdevelopment.com/index.php?board=28.0/");
-            return true;
+            launchUrl("http://http://tunsd.de/downloads/ICJ/AICP//");
         } else if (preference == mReviewUrl) {
-            launchUrl("http://goo.gl/6UENPD");
-            return true;
+            Intent mGerrit = new Intent(getActivity().getApplicationContext(),
+                    com.jbirdvegas.mgerrit.GerritControllerActivity.class);
+            mGerrit.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(mGerrit);
         } else if (preference == mIrcUrl) {
-            launchUrl("http://www.infamousdevelopment.com/index.php?topic=148.0");
-            return true;
+            launchUrl("http://webchat.freenode.net/?channels=teamkang");
         } else if (preference == mDynamicChangelog) {
+            Intent mGerritChangelog = new Intent(getActivity().getApplicationContext(),
+                    com.jbirdvegas.mgerrit.AOKPChangelog.class);
+            mGerritChangelog.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(mGerritChangelog);
+            return true;
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
     private void launchUrl(String url) {
         Uri uriUrl = Uri.parse(url);
-        Intent website = new Intent(Intent.ACTION_VIEW, uriUrl);
-        getActivity().startActivity(website);
+        Intent donate = new Intent(Intent.ACTION_VIEW, uriUrl);
+        getActivity().startActivity(donate);
+        Intent github = new Intent(Intent.ACTION_VIEW, uriUrl);
+        getActivity().startActivity(github);
     }
 }

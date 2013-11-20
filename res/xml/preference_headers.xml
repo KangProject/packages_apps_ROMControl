@@ -1,12 +1,11 @@
-<preference-headers
-xmlns:android="http://schemas.android.com/apk/res/android">
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
 
     <header
         android:id="@+id/about"
         android:fragment="com.aokp.romcontrol.fragments.About"
-        android:title="@string/about_iokp"
+        android:title="@string/about_aicp"
         android:icon="@drawable/ic_rom_control_about"
-        android:summary="@string/about_iokp_summary" />
+        android:summary="@string/about_aicp_summary" />
 
     <header android:title="@string/user_interface" />
 
@@ -76,13 +75,6 @@ xmlns:android="http://schemas.android.com/apk/res/android">
     <header
         android:id="@+id/statusbar"
         android:title="@string/header_statusbar" />
-
-    <header
-        android:id="@+id/statusbar_notifications"
-        android:title="@string/statusbar_notifications"
-        android:fragment="com.aokp.romcontrol.fragments.StatusBarNotifications"
-        android:icon="@drawable/ic_rom_control_notifications"
-        android:summary="@string/header_summary_notifications" />
 
     <header
         android:id="@+id/statusbar_toggles"

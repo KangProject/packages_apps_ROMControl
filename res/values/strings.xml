@@ -13,7 +13,6 @@
     <string name="header_navbar">Navigation Bar</string>
     <string name="toggles_layout">Toggles</string>
     <string name="general_ui">General UI</string>
-    <string name="statusbar_notifications">Notifications</string>
     <string name="clock">Clock</string>
     <string name="battery">Battery</string>
     <string name="signal">Signal</string>
@@ -28,12 +27,10 @@
     <string name="weather">Weather</string>
     <string name="tools">Tools</string>
     <string name="installer">Installer</string>
-    <string name="active_display">Active Display</string>
 
     <!-- Activity titles defined in AndroidManifest.xml -->
-    <string name="title_about">About IOKP</string>
+    <string name="title_about">About AICP</string>
     <string name="title_ui">General User Interface</string>
-    <string name="title_statusbar_notifications">Notifications</string>
     <string name="title_statusbar_clock">Statusbar Clock</string>
     <string name="title_statusbar_toggles">Statusbar Toggles</string>
     <string name="title_statusbar_battery">Statusbar Battery</string>
@@ -57,7 +54,6 @@
     <!-- Header Summaries -->
     <string name="header_summary_clock">@null</string>
     <string name="header_summary_toggles">@null</string>
-    <string name="header_summary_notifications">@null</string>
     <string name="header_summary_general_ui">@null</string>
     <string name="header_summary_battery">@null</string>
     <string name="header_summary_signal">@null</string>
@@ -73,7 +69,6 @@
     <string name="ribbon_settings_summary">@null</string>
     <string name="header_summary_installer">@null</string>
     <string name="header_summary_hardware_keys">@null</string>
-    <string name="header_summary_activedisplay">@null</string>
 
     <!-- Menu Strings -->
     <string name="menu_nav_bar_reset">Reset nav bar</string>
@@ -170,28 +165,51 @@
 
     <!-- About -->
     <string name="devs">The Crew</string>
-    <string name="iokp">Infamous Open Kang Project</string>
-    <string name="iokp_website_title">IOKP Website</string>
-    <string name="iokp_website_summary">InfamousDevelopment.com/</string>
-    <string name="iokp_download_title">IOKP Downloads</string>
-    <string name="iokp_download_summary">Androidfilehost.com</string>
-    <string name="iokp_changelog_title">Change Log</string>
-    <string name="iokp_changelog_summary">Link to thread</string>
-    <string name="iokp_review_title">mGerrit</string>
-    <string name="iokp_review_summary">View IOKP\'s and AOSP\'s Gerrit Review instances quickly and easily</string>
+    <string name="aicp">Android Ice Cold Project</string>
+    <string name="aicp_website_title">AICP Download site</string>
+    <string name="aicp_website_summary">Find all newest releases here.</string>
+    <string name="aicp_review_title">mGerrit</string>
+    <string name="aicp_review_summary">View AOKP\'s and AOSP\'s Gerrit Review instances quickly and easily</string>
     <string name="aokp_irc_title">Join us on IRC</string>
     <string name="aokp_irc_summary">#teamkang @ irc.freenode.net</string>
-    <string name="about_iokp">About IOKP</string>
-    <string name="about_iokp_summary">@null</string>
-    <string name="donate_iokp">http://goo.gl/V01Vqx
+    <string name="about_aicp">About AICP</string>
+    <string name="about_aicp_summary">@null</string>
+    <string name="donate_aokp">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=DBBCGTVJ984YG
     </string>
-    <string name="github_iokp">https://github.com/IOKP</string>
-    <string name="github_midnightRider67">https://github.com/MidnightRider67</string>
-    <string name="github_djmatt604">https://github.com/djmatt604</string>
-    <string name="github_octane70">https://github.com/Octane70</string>
-    <string name="github_mgbotoe">https://github.com/mgbotoe</string>
-    <string name="github_jamison904">https://github.com/jamison904</string>
-    <string name="github_mrimp">https://github.com/mrimp</string>
+    <string name="github_aicp">https://github.com/AICP</string>
+    <string name="github_adam">https://github.com/syaoran12</string>
+    <string name="github_akellar">https://github.com/akellar</string>
+    <string name="github_bajee11">https://github.com/Bajee11</string>
+    <string name="github_bmc08gt">https://github.com/BMc08GT</string>
+    <string name="github_birdman">https://github.com/mrbirdman</string>
+    <string name="github_championswimmer">https://github.com/championswimmer</string>
+    <string name="github_DAGr8">https://github.com/DAGr8</string>
+    <string name="github_dhacker29">https://github.com/dhacker29</string>
+    <string name="github_graffixnyc">https://github.com/graffixnyc</string>
+    <string name="github_hashcode">https://github.com/Hashcode</string>
+    <string name="github_willdeberry">https://github.com/willdeberry</string>
+    <string name="github_jbirdvegas">https://github.com/JBirdVegas</string>
+    <string name="github_k900">https://github.com/K900</string>
+    <string name="github_kecinzer">https://github.com/kecinzer</string>
+    <string name="github_khasmek">https://github.com/KhasMek</string>
+    <string name="github_kwes">https://github.com/kwes1020</string>
+    <string name="github_marclandis">https://github.com/MarcLandis</string>
+    <string name="github_rohan32">https://github.com/rohanmathur</string>
+    <string name="github_roman">https://github.com/romanbb</string>
+    <string name="github_protekk">https://github.com/ProTekk</string>
+    <string name="github_qnhoang81">https://github.com/qnhoang81</string>
+    <string name="github_scar45">https://github.com/scar45</string>
+    <string name="github_sethyx">https://github.com/sethyx</string>
+    <string name="github_sixstringsg">https://github.com/sixstringsg</string>
+    <string name="github_stevespear">https://github.com/Stevespear426</string>
+    <string name="github_tdm">https://github.com/tdm</string>
+    <string name="github_whitehawk">https://github.com/Whitehawkx</string>
+    <string name="github_xoom">https://github.com/xoomdev</string>
+    <string name="github_zaph">https://github.com/Zaphod-Beeblebrox</string>
+    <string name="github_LorDClockaN">https://github.com/LorDClockaN</string>
+    <string name="github_Zipsnet">https://github.com/Zipsnet</string>
+    <string name="github_n3ocort3x">https://github.com/n3ocort3x</string>
+
 
     <!-- General UI -->
     <string name="bootani_cat">Boot animation</string>
@@ -291,7 +309,7 @@
     <string name="transparency_dialog_transparency">Homescreen alpha</string>
     <string name="transparency_dialog_transparency_keyguard">Lockscreen alpha</string>
     <string name="transparency_dialog_lockscreen">Lockscreen</string>
-    <string name="dark_ui">Dark IOKP</string>
+    <string name="dark_ui">Dark AOKP</string>
 
     <!-- LCD Density -->
     <string name="lcd_density_title">LCD Density</string>
@@ -312,7 +330,7 @@
     <string name="clear_market_data_title">3. Clear market data</string>
     <string name="clear_market_data_cleared">Market data cleared</string>
     <string name="clear_market_data_donot_cleared">"Market data couldn't be cleared, please clear it yourself!"</string>
-    <string name="dpi">DPI</string>
+
     <string name="open_market_title">4. Open Market and hit accept</string>
     <string name="open_market_summary">Press back when done to return here.</string>
     <string name="open_market_summary_could_not_open">"Couldn't open the market! If you're sure it's installed, open it
@@ -776,7 +794,7 @@
     </string>
     <string name="lockscreen_all_widgets_title">Allow all widgets</string>
     <string name="lockscreen_all_widgets_summary">Warning** Some widgets are not intended to be used on the lockscreen,
-        The widget maker and IOKP are not responsible for your choice of lockscreen widgets. Choose responsibly.
+        The widget maker and AOKP are not responsible for your choice of lockscreen widgets. Choose responsibly.
     </string>
     <string name="lockscreen_unlimited_widgets_title">Allow unlimited widgets</string>
     <string name="lockscreen_unlimited_widgets_summary">Warning** Adding too many widgets can cause lag issues with
@@ -907,8 +925,8 @@
         Fahrenheit and windspeed in km/h rather than mph.
     </string>
     <string name="weather_statusbar_style">Statusbar weather style</string>
-    <string name="title_weather_longclick">Weather panel long click actions</string>
-    <string name="title_weather_shortclick">Weather panel short click actions</string>
+    <string name="title_weather_longclick">Weather panel long click action</string>
+    <string name="title_weather_shortclick">Weather panel short click action</string>
     <string name="update">Update weather panel</string>
     <string name="weather_refreshing">Requesting weather update!</string>
     <string name="weather_loc_warning_title">Cannot retrieve location!</string>
@@ -1104,7 +1122,7 @@
     <string name="recents_gb">Recents (GB style)</string>
     <string name="custom_app">Custom app</string>
     <string name="menu_power">Power menu</string>
-    <string name="aokp_ribbon">IOKP ribbon</string>
+    <string name="aokp_ribbon">AOKP ribbon</string>
     <string name="nav_widgets">NavBar widgets</string>
     <string name="blank">Blank</string>
     <string name="none">None</string>
@@ -1408,29 +1426,5 @@ y will play/pause current music track</string>
     <!-- Fast Charge -->
     <string name="fast_charge_not_supported_title">Fast Charge not supported</string>
     <string name="fast_charge_not_supported">Fast Charge is not supported by the current kernel.</string>
-
-    <!-- Tile background style and text color -->
-    <string name="tile_background_style_title">Tile background style</string>
-    <string name="tile_background_style_summary">Lets you choose from random, color fill or default background for tiles</string>
-    <string name="tile_background_color_title">Set tile background color</string>
-    <string name="tile_background_pressed_color_title">Set tile pressed background color</string>
-    <string name="tile_background_random">Random colors</string>
-    <string name="tile_background_color_fill">Color fill</string>
-    <string name="tile_background_default">Default background</string>
-    <string name="tile_custom_background_dialog_title">Tile background style</string>
-    <string name="tile_text_color_title">Set tile text color</string>
-
-    <!-- Random colors -->
-    <string name="custom_toggle_colors">Custom colors</string>
-    <string name="random_colors">Random colors</string>
-    <string name="random_colors_title">Set random colors</string>
-    <string name="random_colors_summary">Allows you to select your own random colors</string>
-    <string name="random_colors_reset_title">Reset random colors</string>
-    <string name="color_one">Color one</string>
-    <string name="color_two">Color two</string>
-    <string name="color_three">Color three</string>
-    <string name="color_four">Color four</string>
-    <string name="color_five">Color five</string>
-    <string name="color_six">Color six</string>
 
 </resources>
