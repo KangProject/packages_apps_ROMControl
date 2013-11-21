@@ -51,13 +51,13 @@ public class About extends AOKPPreferenceFragment {
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen,
                                          Preference preference) {
         if (preference == mSiteUrl) {
-            launchUrl("http://www.infamousdevelopment.com/index.php?board=28.0/");
+            launchUrl("http://www.infamousdevelopment.com/forum/forum/60-infamous-open-kang-project-iokp/");
             return true;
         } else if (preference == mReviewUrl) {
             launchUrl("http://goo.gl/6UENPD");
             return true;
         } else if (preference == mIrcUrl) {
-            launchUrl("http://www.infamousdevelopment.com/index.php?topic=148.0");
+            launchUrl("http://www.infamousdevelopment.com/forum/topic/264-change-log/");
             return true;
         } else if (preference == mDynamicChangelog) {
         }
